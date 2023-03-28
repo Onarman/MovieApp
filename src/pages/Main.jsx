@@ -46,7 +46,7 @@ const Main = () => {
           placeholder="Search a movie..."
           onChange={(e)=> setSearchTerm(e.target.value)}
         />
-        <button type="submit">Search</button>
+        <button className="btn-search" type="submit">Search</button>
       </form>
     
     <div className='d-flex justify-content-center flex-wrap'>

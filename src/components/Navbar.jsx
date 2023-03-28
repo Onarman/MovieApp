@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expend-lg">
         <div className="container-fluid">
-            <Link to={"/"} className="navbar-brand text-light">
+            <Link to={"/"} className="navbar-brand text-light ">
                 <h4>React Movie App</h4>
             </Link>
 
@@ -20,7 +20,7 @@ const Navbar = () => {
                 
             {currentUser ? (
                 <>
-                <h5 className='mb-0 text-capitalize'>{currentUser.displayName}</h5>
+                <h5 className='mb-0 text-capitalize mt-2'>{currentUser.displayName}</h5>
             <button className='ms-2 btn btn-outline-light' onClick={() => logOut()}>Logout</button>
                 </>
             

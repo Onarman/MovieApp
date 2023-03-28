@@ -12,7 +12,7 @@ useEffect(() => {
 
 
   return (
-    <AuthContext.Provider value={{currentUser}}>       {children}
+    <AuthContext.Provider value={{currentUser}}>{children}
     </AuthContext.Provider>
   )
 }
